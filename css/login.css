@@ -1,0 +1,28 @@
+body {
+    background : url('../images/project-1.jfif') ;
+    background-size: cover;
+}
+
+div.login_head { text-align: center; }
+
+div.login_head h1 {
+    font-size: 120px;
+    color: red;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.login_head p{
+    color : black;
+    font-size: 50px;
+    border-bottom: 5px solid;
+    margin: 0px;
+    font-weight: bold;
+}
+
+div.login_body form{
+    margin: 0 auto;
+    width: 500px;
+    background: rgba(0,0,0,.5);
+    padding: 50px;
+}
