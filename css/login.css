@@ -20,9 +20,42 @@ div.login_head p{
     font-weight: bold;
 }
 
-div.login_body form{
+div.login_body {
     margin: 0 auto;
-    width: 500px;
+    width: 550px;
+    height: 300px;
     background: rgba(0,0,0,.5);
-    padding: 50px;
+    padding: 60px;
+}
+
+div.login_input_container {
+    margin-top: 20px;
+}
+
+div.login_input_container label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+div.login_input_container input {
+    height: 30px;
+    width: 500px;
+    font-size: 20px;
+    border: 2px solid red;
+    padding: 5px;
+    text-align: center;
+}
+
+div.login_button_container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+div.login_button_container button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: red;
 }
